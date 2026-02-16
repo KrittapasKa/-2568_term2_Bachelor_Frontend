@@ -1,9 +1,19 @@
-<nav>
-    <ul>
-        <li><a routerLink="/home">Home</a></li>
-        <li><a routerLink="/contact">Contact</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/login">Login</a></li>
-        <li><a routerLink="/register">Register</a></li>
-    </ul>
+<nav class="bg-gray-900 shadow">
+    <div class="max-w-7xl mx-auto px-4">
+        <div class="flex justify-between items-center h-16">
+            <div class="text-white font-bold text-xl">MyApp</div>
+            <div class="flex space-x-4">
+                <a routerLink="/home"
+                    class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                <a routerLink="/contact"
+                    class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                <a routerLink="/about"
+                    class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                <a routerLink="/login"
+                    class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Login</a>
+                <a routerLink="/register"
+                    class="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Register</a>
+            </div>
+        </div>
+    </div>
 </nav>
